@@ -3,7 +3,12 @@ http://{ADDRESS}:9999/
 
 Steps:
 Put "ssh" file in boot directory
-put "
+put "admin:$6$3DcmUCUr7rwOd0/q$nRRjHggqkroFBEd/bU3W7FOcOGmgrZFDId.8ADSEDF9dKPt1ImXcz5Dz39FeYI8tFTllNQUHFnmlo7h5HgaOc0" into boot directory
+#Install SD card, boot Pi
+ssh admin@IP.Address
+#User: admin Pass:cableTV21
+
+
 
 ##Enable root to SSH
 #login as admin
