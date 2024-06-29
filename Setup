@@ -1,3 +1,12 @@
 Companion Pi Satellite config:
 http://{ADDRESS}:9999/
 
+Steps:
+Put "ssh" file in boot directory
+put "
+
+##Enable root to SSH
+#login as admin
+sudo nano /etc/ssh/sshd_config
+#change "#PermitRootLogin prohibit-password" to "PermitRootLogin yes"
+#save, reboot
